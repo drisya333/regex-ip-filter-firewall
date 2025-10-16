@@ -1,0 +1,2 @@
+open windows powershell and run- 
+Get-NetFirewallRule | Where-Object {$_.DisplayName -Like "Block IP*"} | Remove-NetFirewallRule
